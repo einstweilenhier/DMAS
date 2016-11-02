@@ -4,9 +4,9 @@
     <list default="true" id="2d5aaac4-b826-4c4e-a46b-abe796c41722" name="Default" comment="" />
     <ignored path="js-intor.iws" />
     <ignored path=".idea/workspace.xml" />
-    <ignored path="$USER_HOME$/WebstormProjects/js-intor/.tmp/" />
-    <ignored path="$USER_HOME$/WebstormProjects/js-intor/temp/" />
-    <ignored path="$USER_HOME$/WebstormProjects/js-intor/tmp/" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,27 +24,37 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="step-1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/WebstormProjects/js-intro/step-1.html">
+        <entry file="file://$PROJECT_DIR$/../js-intro/step-1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+            <state relative-caret-position="153">
+              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="step1a.html" pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/WebstormProjects/js-intro/step1a.html">
+      <file leaf-file-name="step1a.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../js-intro/step1a.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="step-1.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../js-intro/step-1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="steb1b.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/WebstormProjects/js-intro/steb1b.html">
+        <entry file="file://$PROJECT_DIR$/../js-intro/steb1b.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
               <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
@@ -59,15 +69,18 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/WebstormProjects/js-intor/step-1.html" />
-        <option value="$USER_HOME$/WebstormProjects/js-intro/step1a.html" />
-        <option value="$USER_HOME$/WebstormProjects/js-intro/steb1b.html" />
+        <option value="$PROJECT_DIR$/step-1.html" />
+        <option value="$PROJECT_DIR$/../js-intro/steb1b.html" />
+        <option value="$PROJECT_DIR$/../js-intro/step-1.js" />
+        <option value="$PROJECT_DIR$/../js-intro/step1a.html" />
+        <option value="$PROJECT_DIR$/../js-intro/step-1.html" />
       </list>
     </option>
   </component>
@@ -111,6 +124,12 @@
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js-intro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="js-intro" />
@@ -197,12 +216,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1478104736071</updated>
-      <workItem from="1478104739032" duration="359000" />
+      <workItem from="1478104739032" duration="607000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="359000" />
+    <option name="totallyTimeSpent" value="607000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="408" y="119" width="1400" height="1000" extended-state="0" />
@@ -242,15 +261,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/WebstormProjects/js-intro/step-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/WebstormProjects/js-intro/steb1b.html">
+    <entry file="file://$PROJECT_DIR$/../js-intro/steb1b.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
@@ -258,10 +269,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/WebstormProjects/js-intro/step1a.html">
+    <entry file="file://$PROJECT_DIR$/../js-intro/step1a.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../js-intro/step-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../js-intro/step-1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="12" />
           <folding />
         </state>
       </provider>
