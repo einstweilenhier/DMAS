@@ -1,6 +1,4 @@
-
 // We use single quotes in creating strings.
-
 const a = 'I am a string!';
 console.log(a);
 
