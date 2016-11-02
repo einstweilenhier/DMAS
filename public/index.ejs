@@ -2,20 +2,26 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans" />
-  <link rel="stylesheet" href="/assets/css/semantic.css"/>
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans" />  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.6/semantic.min.css" type="text/css">
+  <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.6/semantic.min.js"></script>
   <link type="text/css" rel="stylesheet" href="style.css" media="screen"/>
   <title>BSc in the Internet of Things</title>
 </head>
 <body>
-
-<section class="ui container">
-<%- partial("includes/_header.ejs") %>
-<%- partial("includes/_summary.ejs") %>
-<%- partial("includes/_curriculum.ejs") %>
-<%- partial("includes/_sponsors.ejs") %>
-<%- partial("includes/_footer.ejs") %>
-</section>
-
+  <section class="ui container">
+    <%- partial("includes/_header.ejs") %>
+  </section>
+  <section class="banner">
+    <section class="ui container">
+      <%- partial("includes/_summary.ejs") %>
+    </section>
+  </section>
+  <section class="ui container">
+    <%- partial("includes/_curriculum.ejs") %>
+    <%- partial("includes/_sponsors.ejs") %>
+    <%- partial("includes/_footer.ejs") %>
+  </section>
 </body>
 </html>
