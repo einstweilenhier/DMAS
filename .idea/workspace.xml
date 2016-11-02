@@ -23,11 +23,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="step-3.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="step-3.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../js-intro/step-3.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="step4.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../js-intro/step4.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="types.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../js-intro/js/types.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -73,6 +93,8 @@
         <option value="$PROJECT_DIR$/../js-intro/step-1.js" />
         <option value="$PROJECT_DIR$/../js-intro/step-3.html" />
         <option value="$PROJECT_DIR$/../js-intro/js/foo.js" />
+        <option value="$PROJECT_DIR$/../js-intro/step4.html" />
+        <option value="$PROJECT_DIR$/../js-intro/js/types.js" />
       </list>
     </option>
   </component>
@@ -221,12 +243,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1478104736071</updated>
-      <workItem from="1478104739032" duration="899000" />
+      <workItem from="1478104739032" duration="1152000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="899000" />
+    <option name="totallyTimeSpent" value="1152000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="999" y="0" width="928" height="1087" extended-state="0" />
@@ -312,6 +334,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../js-intro/step4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../js-intro/js/types.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
           <folding />
         </state>
       </provider>
