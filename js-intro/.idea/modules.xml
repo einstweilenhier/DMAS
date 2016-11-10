@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/js-intro.iml" filepath="$PROJECT_DIR$/.idea/js-intro.iml" />
       <module fileurl="file://$USER_HOME$/WebstormProjects/js-intro/.idea/js-intro.iml" filepath="$USER_HOME$/WebstormProjects/js-intro/.idea/js-intro.iml" />
     </modules>
   </component>
