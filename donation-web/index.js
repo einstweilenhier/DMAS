@@ -5,12 +5,11 @@ const Hapi = require('hapi');
 var server = new Hapi.Server();
 server.connection({port: process.env.PORT || 4000});
 
-server.route = require('./routes.js');
+server.route(require('./routes.js'));
+server.start(err => {
+  if (err) {
+    throw err;
+  }
 
-server.start( err => {
-    if(err){
-        throw(err);
-    }
-
-    console.log("Server listening at: ", server.info.uri);
-})
+  console.log('Server listening at', server.info.uri);
+});

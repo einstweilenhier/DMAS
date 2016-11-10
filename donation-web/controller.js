@@ -1,5 +1,6 @@
 exports.index = {
-    handler: function (request, reply) {
-        reply('Hello');
-    }
+  handler: function (request, reply) {
+    console.log("handler called");
+    reply('Hello');
+  },
 };
