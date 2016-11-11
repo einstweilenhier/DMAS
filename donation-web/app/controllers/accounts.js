@@ -51,3 +51,22 @@ exports.logout = {
     reply.redirect('/');
   },
 };
+
+exports.viewSettings = {
+  handler: function (request, reply) {
+    reply.view('settings', {
+      title: 'Edit account settings',
+      user: this.users[request.auth.credentials.loggedInUser],
+    });
+  },
+};
+
+exports.updateSettings = {
+  handler: function (request, reply) {
+    let changedUser = request.payload;
+    if (request.auth.credentials.loggedInUser !== changedUser.email) {
+      delete this.users[request.auth.credentials.loggedInUser];
+    }
+    this.users[changedUser.email] = changedUser;
+  },
+};
