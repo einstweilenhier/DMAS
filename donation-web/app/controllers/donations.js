@@ -11,7 +11,7 @@ exports.report =
 {
   handler: function (request, reply) {
     reply.view('report', {
-      title: "Donations to Date",
+      title: 'Donations to Date',
       donations: this.donations,
     });
   },
@@ -20,7 +20,9 @@ exports.report =
 exports.donate =
 {
   handler: function (request, reply) {
-    const data = request.payload;
+    let data = request.payload;
+    const donorEmail = request.auth.credentials.loggedInUser;
+    data.donor = this.users[donorEmail];
     this.donations.push(data);
     reply.redirect('/report');
   },

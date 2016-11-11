@@ -5,17 +5,41 @@ const Hapi = require('hapi');
 var server = new Hapi.Server();
 server.connection({ port: process.env.PORT || 4000 });
 
+const initUsers = {
+  'bart@simpson.com': {
+    firstName: 'bart',
+    lastName: 'simpson',
+    email: 'bart@simpson.com',
+    password: 'secret',
+  },
+  'lisa@simpson.com': {
+    firstName: 'lisa',
+    lastName: 'simpson',
+    email: 'lisa@simpson.com',
+    password: 'secret',
+  },
+};
+
 server.bind({
   donations: [],
-  users: [],
-  currentUser: [],
+  users: initUsers,
 });
 
-server.register([require('inert'), require('vision')], err => {
+server.register([require('inert'), require('vision'), require('hapi-auth-cookie')], err => {
 
   if (err) {
     throw err;
   }
+
+  server.auth.strategy('standard', 'cookie', {
+    password: 'secretpasswordnotrevealedtoanyone', //factor this out to gitignored config for real app
+    cookie: 'donation-cookie',
+    ttl: 24 * 60 * 60 * 1000,
+    isSecure: false,
+    redirectTo: '/login',
+  });
+
+  server.auth.default({ strategy: 'standard' });
 
   server.views({
     engines: {
