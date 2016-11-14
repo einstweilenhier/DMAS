@@ -5,25 +5,7 @@ const Hapi = require('hapi');
 var server = new Hapi.Server();
 server.connection({ port: process.env.PORT || 4000 });
 
-const initUsers = {
-  'bart@simpson.com': {
-    firstName: 'bart',
-    lastName: 'simpson',
-    email: 'bart@simpson.com',
-    password: 'secret',
-  },
-  'lisa@simpson.com': {
-    firstName: 'lisa',
-    lastName: 'simpson',
-    email: 'lisa@simpson.com',
-    password: 'secret',
-  },
-};
-
-server.bind({
-  donations: [],
-  users: initUsers,
-});
+require('./app/models/db');
 
 server.register([require('inert'), require('vision'), require('hapi-auth-cookie')], err => {
 

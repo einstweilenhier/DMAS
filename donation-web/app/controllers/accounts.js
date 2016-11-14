@@ -1,23 +1,31 @@
-'use strict',
+'use strict';
+
+const User = require('../models/user');
+
 exports.main = {
   auth: false,
   handler: function (request, reply) {
-    reply.view('main', { title: 'Welcome to Donations' });
+    reply.view('main', {title: 'Welcome to Donations'});
   },
 };
 
 exports.signup = {
   auth: false,
   handler: function (request, reply) {
-    reply.view('signup', { title: 'Sign up for Donations' });
+    reply.view('signup', {title: 'Sign up for Donations'});
   },
 };
 
 exports.register = {
+  auth: false,
   handler: function (request, reply) {
-    const user = request.payload;
-    this.users[user.email] = user;
-    reply.redirect('/login');
+    const user = new User(request.payload);
+
+    user.save().then(newUser => {
+      reply.redirect('/login');
+    }).catch(err => {
+      reply.redirect('/');
+    });
   },
 };
 
@@ -32,17 +40,20 @@ exports.authenticate = {
   auth: false,
   handler: function (request, reply) {
     const user = request.payload;
-    if ((user.email in this.users) && (user.password === this.users[user.email].password)) {
-      request.cookieAuth.set({
-        loggedIn: true,
-        loggedInUser: user.email,
-      });
-      reply.redirect('/home');
-    } else {
-      reply.redirect('/signup');
-    }
+    User.findOne({ email: user.email }).then(foundUser => {
+      if (foundUser && foundUser.password === user.password) {
+        request.cookieAuth.set({
+          loggedIn: true,
+          loggedInUser: user.email,
+        });
+        reply.redirect('/home');
+      } else {
+        reply.redirect('/signup');
+      }
+    }).catch(err => {
+      reply.redirect('/');
+    });
   },
-
 };
 
 exports.logout = {
@@ -54,19 +65,29 @@ exports.logout = {
 
 exports.viewSettings = {
   handler: function (request, reply) {
-    reply.view('settings', {
-      title: 'Edit account settings',
-      user: this.users[request.auth.credentials.loggedInUser],
+    var userEmail = request.auth.credentials.loggedInUser;
+    User.findOne({ email: userEmail }).then(foundUser => {
+      reply.view('settings', { title: 'Edit account settings', user: foundUser, });
+    }).catch( err => {
+      reply.redirect('/');
     });
   },
 };
 
 exports.updateSettings = {
   handler: function (request, reply) {
-    let changedUser = request.payload;
-    if (request.auth.credentials.loggedInUser !== changedUser.email) {
-      delete this.users[request.auth.credentials.loggedInUser];
-    }
-    this.users[changedUser.email] = changedUser;
+    var editedUser = request.payload;
+    var loggedInUserEmail = request.auth.credentials.loggedInUser;
+    
+    User.findOne({ email: loggedInUserEmail }).then(user => {
+      user.firstName = editedUser.firstName;
+      user.lastName = editedUser.lastName;
+      user.email = editedUser.email;
+      return user.save();
+    }).then(user => {
+      reply.view('settings', { title: 'Edit Account Settings', user: user });
+    }).catch( err => {
+      reply.redirect('/');
+    })
   },
 };
