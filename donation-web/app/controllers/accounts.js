@@ -34,7 +34,6 @@ exports.register = {
         title: 'Sign up error',
         errors: error.data.details,
       }).code(400);
-
     },
 
     options: {

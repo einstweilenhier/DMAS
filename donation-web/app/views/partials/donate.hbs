@@ -2,16 +2,11 @@
   <div class="ui grid ">
     <div class="ui form six wide column">
       <div class="ui stacked segment">
+        {{> formerror }}
         <form action="/donate" method="POST">
-          <div class="ui dropdown" name="amount">
-            <input type="hidden" name="amount">
-            <div class="text">Select Amount</div>
-            <i class="ui dropdown icon"></i>
-            <div class="menu">
-              <div class="item">50</div>
-              <div class="item">100</div>
-              <div class="item">1000</div>
-            </div>
+          <div class="field">
+            <label>Amount</label>
+            <input type="text" name="amount">
           </div>
           <div class="grouped inline fields">
             <div class="field">
