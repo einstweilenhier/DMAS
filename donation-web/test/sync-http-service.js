@@ -9,6 +9,7 @@ class SyncHttpService {
   get(url) {
     var returnedObj = null;
     var res = request('GET', this.baseUrl + url);
+    console.log('GET: ' + this.baseUrl + url);
     if (res.statusCode < 300) {
       returnedObj = JSON.parse(res.getBody('utf8'));
     }
@@ -19,6 +20,7 @@ class SyncHttpService {
   post(url, obj) {
     var returnedObj = null;
     var res = request('POST', this.baseUrl + url, { json: obj });
+    console.log('POST: ' + this.baseUrl + url);
     if (res.statusCode < 300) {
       returnedObj = JSON.parse(res.getBody('utf8'));
     }
