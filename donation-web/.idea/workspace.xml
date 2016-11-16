@@ -93,8 +93,8 @@
       <file leaf-file-name="userapitest.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/userapitest.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="34" column="2" lean-forward="false" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
+            <state relative-caret-position="221">
+              <caret line="46" column="18" lean-forward="false" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -154,8 +154,8 @@
         <option value="$PROJECT_DIR$/test/donation-service.js" />
         <option value="$PROJECT_DIR$/test/candidatesapitest.js" />
         <option value="$PROJECT_DIR$/test/fixtures.json" />
-        <option value="$PROJECT_DIR$/test/userapitest.js" />
         <option value="$PROJECT_DIR$/app/api/usersapi.js" />
+        <option value="$PROJECT_DIR$/test/userapitest.js" />
       </list>
     </option>
   </component>
@@ -446,17 +446,11 @@
       <workItem from="1479147486757" duration="5003000" />
       <workItem from="1479228656181" duration="3226000" />
       <workItem from="1479262984359" duration="207000" />
-      <workItem from="1479307829256" duration="6644000" />
+      <workItem from="1479307829256" duration="6834000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="test_candidatesapitest_js - 2016.11.16 at 17h 30m 52s.xml">
-      <configuration name="test\candidatesapitest.js" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="test_candidatesapitest_js - 2016.11.16 at 17h 33m 33s.xml">
-      <configuration name="test\candidatesapitest.js" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
     <history-entry file="test_candidatesapitest_js - 2016.11.16 at 17h 34m 06s.xml">
       <configuration name="test\candidatesapitest.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
@@ -481,9 +475,15 @@
     <history-entry file="test_userapitest_js - 2016.11.16 at 17h 47m 38s.xml">
       <configuration name="test\userapitest.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
+    <history-entry file="test_userapitest_js - 2016.11.16 at 17h 48m 25s.xml">
+      <configuration name="test\userapitest.js" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="test_userapitest_js - 2016.11.16 at 17h 50m 47s.xml">
+      <configuration name="test\userapitest.js" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43374000" />
+    <option name="totallyTimeSpent" value="43564000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="85" y="-8" width="1289" height="784" extended-state="6" />
@@ -787,8 +787,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/userapitest.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="34" column="2" lean-forward="false" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
+        <state relative-caret-position="221">
+          <caret line="46" column="18" lean-forward="false" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
           <folding />
         </state>
       </provider>

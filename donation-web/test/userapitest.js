@@ -37,14 +37,14 @@ suite('User API tests', function () {
     assert.isNull(u1);
     const u2 = donationService.getUser('012345678901234567890123');
     assert.isNull(u2);
-  });
+  }).timeout(15000);
 
   test('delete a user', function () {
     const u = donationService.createUser(newUser);
     assert(donationService.getUser(u._id) != null);
     donationService.deleteOneUser(u._id);
     assert(donationService.getUser(u._id) == null);
-  });
+  }).timeout(15000);
 
   test('get all users', function () {
     for (let u of users) {
