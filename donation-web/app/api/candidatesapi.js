@@ -4,31 +4,41 @@ const Candidate = require('../models/candidate');
 const Boom = require('boom');
 
 exports.find = {
+
   auth: false,
 
   handler: function (request, reply) {
     Candidate.find({}).exec().then(candidates => {
       reply(candidates);
     }).catch(err => {
-      reply(Boom.badImpementation('error accessing db'));
+      reply(Boom.badImplementation('error accessing db'));
     });
   },
+
 };
 
 exports.findOne = {
+
   auth: false,
 
   handler: function (request, reply) {
-    Candidate.findOne({_id: request.params.id}).then(candidate => {
-      reply(candidate);
+    Candidate.findOne({ _id: request.params.id }).then(candidate => {
+      if (candidate != null) {
+        reply(candidate);
+      }
+
+      reply(Boom.notFound('id not found'));
     }).catch(err => {
       reply(Boom.notFound('id not found'));
     });
   },
+
 };
 
 exports.create = {
+
   auth: false,
+
   handler: function (request, reply) {
     const candidate = new Candidate(request.payload);
     candidate.save().then(newCandidate => {
@@ -37,10 +47,13 @@ exports.create = {
       reply(Boom.badImplementation('error creating candidate'));
     });
   },
+
 };
 
 exports.deleteAll = {
+
   auth: false,
+
   handler: function (request, reply) {
     Candidate.remove({}).then(err => {
       reply().code(204);
@@ -48,16 +61,19 @@ exports.deleteAll = {
       reply(Boom.badImplementation('error removing candidates'));
     });
   },
+
 };
 
-
 exports.deleteOne = {
+
   auth: false,
+
   handler: function (request, reply) {
-    Candidate.remove({ _id: request.params.id}).then(candidate => {
+    Candidate.remove({ _id: request.params.id }).then(candidate => {
       reply(candidate).code(204);
     }).catch(err => {
       reply(Boom.notFound('id not found'));
     });
   },
+
 };

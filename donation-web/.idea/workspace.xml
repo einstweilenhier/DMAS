@@ -23,29 +23,28 @@
       <file leaf-file-name="candidatesapi.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/api/candidatesapi.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="49" column="4" lean-forward="false" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
-              <folding>
-                <marker date="1479244776197" expanded="true" signature="608:900" ph="{...}" />
-                <marker date="1479244776197" expanded="true" signature="662:897" ph="{...}" />
-                <marker date="1479244776197" expanded="true" signature="760:804" ph="{...}" />
-                <marker date="1479244776197" expanded="true" signature="819:891" ph="{...}" />
-                <marker date="1479244776197" expanded="true" signature="923:1145" ph="{...}" />
-                <marker date="1479244776197" expanded="true" signature="977:1142" ph="{...}" />
-                <marker date="1479244776197" expanded="true" signature="1016:1048" ph="{...}" />
-                <marker date="1479244776197" expanded="true" signature="1063:1136" ph="{...}" />
-                <marker date="1479244776197" expanded="true" signature="1223:1404" ph="{...}" />
-                <marker date="1479244776197" expanded="true" signature="1347:1398" ph="{...}" />
-              </folding>
+            <state relative-caret-position="374">
+              <caret line="78" column="2" lean-forward="false" selection-start-line="78" selection-start-column="2" selection-end-line="78" selection-end-column="2" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="candidatesapitest.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/candidatesapitest.js">
+      <file leaf-file-name="donation-service.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/donation-service.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="51" column="5" lean-forward="false" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+            <state relative-caret-position="34">
+              <caret line="2" column="52" lean-forward="false" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fixtures.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/fixtures.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -54,28 +53,48 @@
       <file leaf-file-name="usersapi.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/api/usersapi.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="42" column="16" lean-forward="false" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+            <state relative-caret-position="374">
+              <caret line="74" column="2" lean-forward="false" selection-start-line="74" selection-start-column="2" selection-end-line="74" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="userapitest.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sync-http-service.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/sync-http-service.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="34" column="33" lean-forward="false" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="candidatesapitest.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/candidatesapitest.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="68" column="2" lean-forward="false" selection-start-line="68" selection-start-column="2" selection-end-line="68" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routesapi.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routesapi.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userapitest.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/userapitest.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="43" column="20" lean-forward="false" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/data.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="53" column="39" lean-forward="false" selection-start-line="53" selection-start-column="39" selection-end-line="53" selection-end-column="39" />
+            <state relative-caret-position="832">
+              <caret line="64" column="3" lean-forward="false" selection-start-line="64" selection-start-column="3" selection-end-line="64" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -124,11 +143,14 @@
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/test/candidateapitest.js" />
         <option value="$PROJECT_DIR$/test/apitest.js" />
-        <option value="$PROJECT_DIR$/app/api/candidatesapi.js" />
+        <option value="$PROJECT_DIR$/test/userapitest.js" />
         <option value="$PROJECT_DIR$/routesapi.js" />
         <option value="$PROJECT_DIR$/app/api/usersapi.js" />
+        <option value="$PROJECT_DIR$/app/api/candidatesapi.js" />
+        <option value="$PROJECT_DIR$/test/fixtures.json" />
+        <option value="$PROJECT_DIR$/test/sync-http-service.js" />
+        <option value="$PROJECT_DIR$/test/donation-service.js" />
         <option value="$PROJECT_DIR$/test/candidatesapitest.js" />
-        <option value="$PROJECT_DIR$/test/userapitest.js" />
       </list>
     </option>
   </component>
@@ -184,6 +206,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -224,10 +248,26 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="donation-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="donation-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -245,6 +285,7 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="6.9.1" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="C:\Users\tobias\Documents\DMAS\donation-web\node_modules\mocha" />
+    <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -255,7 +296,7 @@
       <recent name="C:\Users\tobias\Documents\DMAS\donation-web\app\models" />
     </key>
   </component>
-  <component name="RunManager" selected="Mocha.test\userapitest.js">
+  <component name="RunManager" selected="Mocha.test\candidatesapitest.js">
     <configuration default="false" name="index.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="index.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
@@ -283,6 +324,22 @@
       <test-file>$PROJECT_DIR$/test/userapitest.js</test-file>
       <method />
     </configuration>
+    <configuration default="false" name="Candidate API tests.delete a candidate" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>tdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/candidatesapitest.js</test-file>
+      <test-names>
+        <name value="Candidate API tests" />
+        <name value="delete a candidate" />
+      </test-names>
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
@@ -290,6 +347,12 @@
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
       <config-file value="" />
       <node-interpreter value="project" />
       <envs />
@@ -336,16 +399,18 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Node.js.index.js" />
       <item index="1" class="java.lang.String" itemvalue="Mocha.test\candidatesapitest.js" />
       <item index="2" class="java.lang.String" itemvalue="Mocha.test\userapitest.js" />
+      <item index="3" class="java.lang.String" itemvalue="Mocha.Candidate API tests.delete a candidate" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Mocha.test\userapitest.js" />
-        <item index="1" class="java.lang.String" itemvalue="Mocha.test\candidatesapitest.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.index.js" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Mocha.test\candidatesapitest.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.index.js" />
+        <item index="2" class="java.lang.String" itemvalue="Mocha.Candidate API tests.delete a candidate" />
+        <item index="3" class="java.lang.String" itemvalue="Mocha.test\userapitest.js" />
       </list>
     </recent_temporary>
   </component>
@@ -376,49 +441,50 @@
       <workItem from="1479147486757" duration="5003000" />
       <workItem from="1479228656181" duration="3226000" />
       <workItem from="1479262984359" duration="207000" />
+      <workItem from="1479307829256" duration="5915000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="test_candidatesapitest_js - 2016.11.15 at 18h 15m 03s.xml">
+    <history-entry file="test_candidatesapitest_js - 2016.11.16 at 17h 25m 53s.xml">
       <configuration name="test\candidatesapitest.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="test_candidatesapitest_js - 2016.11.15 at 18h 15m 13s.xml">
+    <history-entry file="test_candidatesapitest_js - 2016.11.16 at 17h 26m 58s.xml">
       <configuration name="test\candidatesapitest.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="test_candidatesapitest_js - 2016.11.15 at 18h 19m 52s.xml">
+    <history-entry file="test_candidatesapitest_js - 2016.11.16 at 17h 28m 51s.xml">
       <configuration name="test\candidatesapitest.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="test_candidatesapitest_js - 2016.11.15 at 18h 24m 10s.xml">
+    <history-entry file="test_candidatesapitest_js - 2016.11.16 at 17h 29m 13s.xml">
       <configuration name="test\candidatesapitest.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="test_candidatesapitest_js - 2016.11.15 at 18h 24m 22s.xml">
+    <history-entry file="test_candidatesapitest_js - 2016.11.16 at 17h 30m 11s.xml">
       <configuration name="test\candidatesapitest.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="test_candidatesapitest_js - 2016.11.15 at 18h 40m 16s.xml">
+    <history-entry file="test_candidatesapitest_js - 2016.11.16 at 17h 30m 52s.xml">
       <configuration name="test\candidatesapitest.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="test_candidatesapitest_js - 2016.11.16 at 03h 25m 01s.xml">
+    <history-entry file="test_candidatesapitest_js - 2016.11.16 at 17h 33m 33s.xml">
       <configuration name="test\candidatesapitest.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="test_userapitest_js - 2016.11.15 at 18h 40m 27s.xml">
-      <configuration name="test\userapitest.js" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="test_candidatesapitest_js - 2016.11.16 at 17h 34m 06s.xml">
+      <configuration name="test\candidatesapitest.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="test_userapitest_js - 2016.11.15 at 18h 40m 57s.xml">
-      <configuration name="test\userapitest.js" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="test_candidatesapitest_js - 2016.11.16 at 17h 35m 18s.xml">
+      <configuration name="test\candidatesapitest.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="test_userapitest_js - 2016.11.16 at 03h 25m 09s.xml">
-      <configuration name="test\userapitest.js" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="test_candidatesapitest_js - 2016.11.16 at 17h 35m 42s.xml">
+      <configuration name="test\candidatesapitest.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36730000" />
+    <option name="totallyTimeSpent" value="42645000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="85" y="-8" width="1289" height="784" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20383693" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.186251" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -426,7 +492,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29032257" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37634408" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -452,26 +518,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="48" />
+      <option name="time" value="59" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller.js" />
-    <entry file="file://$PROJECT_DIR$/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="43" lean-forward="false" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -649,33 +700,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="39" lean-forward="false" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/candidateapitest.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/sync-request/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="36" column="10" lean-forward="false" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routesapi.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="14" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/api/usersapi.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="16" lean-forward="false" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -687,37 +716,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/userapitest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="832">
+          <caret line="64" column="3" lean-forward="false" selection-start-line="64" selection-start-column="3" selection-end-line="64" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routesapi.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/api/usersapi.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="74" column="2" lean-forward="false" selection-start-line="74" selection-start-column="2" selection-end-line="74" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/api/candidatesapi.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="49" column="4" lean-forward="false" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
-          <folding>
-            <marker date="1479244776197" expanded="true" signature="608:900" ph="{...}" />
-            <marker date="1479244776197" expanded="true" signature="662:897" ph="{...}" />
-            <marker date="1479244776197" expanded="true" signature="760:804" ph="{...}" />
-            <marker date="1479244776197" expanded="true" signature="819:891" ph="{...}" />
-            <marker date="1479244776197" expanded="true" signature="923:1145" ph="{...}" />
-            <marker date="1479244776197" expanded="true" signature="977:1142" ph="{...}" />
-            <marker date="1479244776197" expanded="true" signature="1016:1048" ph="{...}" />
-            <marker date="1479244776197" expanded="true" signature="1063:1136" ph="{...}" />
-            <marker date="1479244776197" expanded="true" signature="1223:1404" ph="{...}" />
-            <marker date="1479244776197" expanded="true" signature="1347:1398" ph="{...}" />
-          </folding>
+        <state relative-caret-position="374">
+          <caret line="78" column="2" lean-forward="false" selection-start-line="78" selection-start-column="2" selection-end-line="78" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/fixtures.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/sync-http-service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="34" column="33" lean-forward="false" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/donation-service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="52" lean-forward="false" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/candidatesapitest.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" column="5" lean-forward="false" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/userapitest.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="43" column="20" lean-forward="false" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+        <state relative-caret-position="221">
+          <caret line="68" column="2" lean-forward="false" selection-start-line="68" selection-start-column="2" selection-end-line="68" selection-end-column="2" />
           <folding />
         </state>
       </provider>
